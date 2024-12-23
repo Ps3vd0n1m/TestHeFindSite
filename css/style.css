@@ -1,0 +1,107 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+nav a:hover {
+    background-color: #44C389;
+}
+
+main {
+    padding: 50px 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    color: #ff0000;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/home/ps3vd0n1m/Desktop/Vs_code/HeFind site/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'),
+         url('/home/ps3vd0n1m/Desktop/Vs_code/HeFind site/fonts//OpenSans-Regular.woff') format('woff'),
+         url('/home/ps3vd0n1m/Desktop/Vs_code/HeFind site/fonts//OpenSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff; /* Белый текст на черном фоне */
+    background-color: #000; /* Черный фон */
+}
+
+section {
+    padding: 50px 0;
+    border-bottom: 2px solid #fff; /* Белая полоса между секциями */
+}
+
+section:last-child {
+    border-bottom: none; /* Убираем полосу после последней секции */
+}
